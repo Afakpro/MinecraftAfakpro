@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "mixins": [
+    "LowHealthHeartMixin"
+  ],
+  "client": [
+    "LowHealthHeartMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

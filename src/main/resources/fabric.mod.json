@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "low_health_heart",
+  "version": "${version}",
+  "name": "Low Health Heart",
+  "description": "A mod that shows a heart when health is low.",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://github.com/yourname/low_health_heart"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.low_health_heart.LowHealthHeartClient"
+    ]
+  },
+  "mixins": [
+    "low_health_heart.mixin.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}

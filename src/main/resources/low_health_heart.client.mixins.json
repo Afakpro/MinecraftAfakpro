@@ -1,0 +1,10 @@
+{
+  "client": {
+    "mixins": [
+      "LowHealthHeartMixin"
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    }
+  }
+}
